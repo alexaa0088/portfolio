@@ -1,0 +1,65 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    height: 100%;
+}
+
+
+/* Navbar Area Styles */
+i {
+    margin-right: 0.5em;
+}
+
+
+.jumbotron {
+    background: url(https://dl.dropboxusercontent.com/u/6407774/2014-12-31%2017.57.24%20-%20B%26W.jpg);
+    background-size: cover;
+    min-height: 600px;
+    width: 100%;
+}
+
+.main h2 {
+    color: #fff;
+}
+
+/* Fotter Styles */
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background-color: #e7e7e7;
+    text-align: right;
+}
+
+.social_media li {
+    display: inline-block;
+    list-style-type: disc;
+    margin: 0.7em 0.5em 0;
+    height: 24px
+}
+
+
+.footer.social_media {
+    width: 100%;
+}
+
+.github .linkedin {
+    background-position: center center;
+}
+
+a {
+    text-decoration: none;
+    color: #777
+}
+
+.fa-customx{
+    font-size: 1.2em;
+}
