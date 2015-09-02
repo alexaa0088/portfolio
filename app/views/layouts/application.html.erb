@@ -2,9 +2,9 @@
 <html>
 <head>
   <title>Portfolio</title>
-  <link href='https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700' rel='stylesheet' type='text/css'>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= stylesheet_link_tag 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700', type: 'text/css' %>
   <%= csrf_meta_tags %>
 </head>
 <body>
@@ -35,13 +35,13 @@
   </nav>
 
 
-<%= yield %>
+  <%= yield %>
 
 
 <footer class="footer">
   <div class="container">
      <p class="text-muted">
-          <ul class="social_media">
+          <ul class="social_media list-unstyled">
             <li>
               <a class="github" href="#"><i class="fa fa-github fa-customx"></i></a>
             </li>

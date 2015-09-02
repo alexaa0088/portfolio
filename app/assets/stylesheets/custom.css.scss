@@ -10,23 +10,11 @@ html, body {
     height: 100%;
 }
 
-
 /* Navbar Area Styles */
 i {
     margin-right: 0.5em;
 }
 
-
-.jumbotron {
-    background: url(https://dl.dropboxusercontent.com/u/6407774/2014-12-31%2017.57.24%20-%20B%26W.jpg);
-    background-size: cover;
-    min-height: 600px;
-    width: 100%;
-}
-
-.main h2 {
-    color: #fff;
-}
 
 /* Fotter Styles */
 
@@ -41,7 +29,7 @@ i {
 
 .social_media li {
     display: inline-block;
-    list-style-type: disc;
+   /* list-style-type: disc; */
     margin: 0.7em 0.5em 0;
     height: 24px
 }
@@ -62,4 +50,40 @@ a {
 
 .fa-customx{
     font-size: 1.2em;
+}
+
+/* Home Page Styles */
+
+.home-pg-bg {
+    background: url(https://dl.dropboxusercontent.com/u/6407774/2014-12-31%2017.57.24%20-%20B%26W.png);
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    background-size: cover;
+}
+
+.main-txt {
+    margin-top: 100px;
+    width: 100%;
+    height: auto;
+    color: rgba(0,0,0, 0.5);
+}
+
+.home-pg-btn {
+    margin-top: -10px;
+}
+
+
+.btn {
+    background-color: rgba(0,0,0, 0.7);
+    border-radius: 1;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 100;
+    height: 40px;
+    line-height: 40px;
+    margin: 40px 0;
+    padding: 0;
+    transition: background-color .5s;
+    width: 150px;
 }
